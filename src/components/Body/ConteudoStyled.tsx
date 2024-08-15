@@ -13,11 +13,11 @@ const ConteudoStyled = styled.div`
   }
 
   @media (max-width: 1920px) {
-    height: 5600px;
+    height: 5400px;
   }
 
-  @media (max-width: 1740px) {
-    height: 5400px;
+  @media (max-width: 1760px) {
+    height: 4650px;
   }
 
   @media (max-width: 1440px) {
