@@ -22,7 +22,7 @@ const ProjetosStyled = styled.div`
   }
 
   @media (max-width: 375px) {
-    width: 100vw;
+    width: 90vw;
   }
 `;
 

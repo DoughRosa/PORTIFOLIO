@@ -21,15 +21,21 @@ const ApresentacaoStyled = styled.div`
 
   @media (max-width: 425px) {
     position: relative;
-    width: 100vw;
     height: 750px;
+    width: 428px;
     margin: 0vw;
     padding: 10px;
   }
 
+  @media (max-width: 375px){
+    height: 800px;
+    width: 352px;
+    margin: 0vw;
+  }
+
   @media (max-width: 320px){
     height: 800px;
-    width: 90vw;
+    width: 300px;
     margin: 0vw;
   }
 `;

@@ -19,7 +19,7 @@ const ContainerStyled = styled.div`
   }
 
   @media (max-width: 375px) {
-    width: 98vw;
+    width: 90vw;
   }
 `
 

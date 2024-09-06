@@ -12,7 +12,7 @@ const ImagemStyled = styled.img`
 
   @media (max-width: 2560px) {
     height: 300px;
-    width: 300px;
+    width: 280px;
   }
   @media (max-width: 1920px) {
     height: 200px;
@@ -36,10 +36,14 @@ const ImagemStyled = styled.img`
   }
   @media (max-width: 425px) {
     width: 115px;
-    height: 115px;
+    height: 125px;
   }
   @media (max-width: 375px) {
-    width: 100px;
+    width: 90px;
+    height: 100px;
+  }
+  @media (max-width: 320px) {
+    width: 75px;
     height: 100px;
   }
 `;

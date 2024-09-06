@@ -2,20 +2,44 @@ import styled from "styled-components";
 
 const ConteudoStyled = styled.div`
   color: ${(props) => props.theme.colors.quartiary};
-  height: 100%;
   width: 40vw;
   background-color: #101010;
   margin-left: 50vw;
   align-items: center;
 
+  @media (max-width: 2560px) {
+    height: 6600px;
+  }
+
+  @media (max-width: 1440px) {
+    height: 4850px;
+  }
+
+  @media (max-width: 1024px) {
+    height: 4650px;
+  }
+
   @media (max-width: 768px) {
-    width: 80vw;
     margin-left: 10vw;
+    width: 614px;
   }
 
   @media (max-width: 425px) {
+    margin: 0vw;
+    width: 434px;
+    padding: 5px;
+  }
+
+  @media (max-width: 375px) {
     position: relative;
-    width: 102vw;
+    width: 362px;
+    margin: 0vw;
+    padding: 5px;
+  }
+
+  @media (max-width: 320px) {
+    position: relative;
+    width: 308px;
     margin: 0vw;
     padding: 5px;
   }
