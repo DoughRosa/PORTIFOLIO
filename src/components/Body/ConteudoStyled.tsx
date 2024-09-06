@@ -11,6 +11,14 @@ const ConteudoStyled = styled.div`
     height: 6600px;
   }
 
+  @media (max-width: 1948px) {
+    height: 6000px;
+  }
+
+  @media (max-width: 1724px) {
+    height: 5100px;
+  }
+
   @media (max-width: 1440px) {
     height: 4850px;
   }
