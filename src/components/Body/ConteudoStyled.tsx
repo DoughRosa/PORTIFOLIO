@@ -7,26 +7,6 @@ const ConteudoStyled = styled.div`
   margin-left: 50vw;
   align-items: center;
 
-  @media (max-width: 2560px) {
-    height: 6600px;
-  }
-
-  @media (max-width: 1948px) {
-    height: 6000px;
-  }
-
-  @media (max-width: 1724px) {
-    height: 5100px;
-  }
-
-  @media (max-width: 1440px) {
-    height: 4850px;
-  }
-
-  @media (max-width: 1024px) {
-    height: 4650px;
-  }
-
   @media (max-width: 768px) {
     margin-left: 10vw;
     width: 614px;

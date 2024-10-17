@@ -20,6 +20,7 @@ import fab from './../../assets/imagens/FabMaGif.gif';
 import it from './../../assets/imagens/itGif.gif';
 import rick from './../../assets/imagens/rickAndMortyGif.gif';
 import growTweeter from './../../assets/imagens/growTweeter.gif';
+import dra from './../../assets/imagens/dra.gif';
 
 function Conteudo() {
   return (
@@ -156,6 +157,12 @@ function Conteudo() {
         <h3>Jucieli Gomes Psi - Landing Page</h3>
         <a target="_blank" href="https://jucieligomespsi.com.br/">
           <Gif src={psi}></Gif>
+        </a>
+      </Projetos>
+      <Projetos>
+        <h3>Douglas Rosa Advocacia - Landing Page</h3>
+        <a target="_blank" href="https://douglasrosaadvocacia.com">
+          <Gif src={dra}></Gif>
         </a>
       </Projetos>
       <Projetos>
