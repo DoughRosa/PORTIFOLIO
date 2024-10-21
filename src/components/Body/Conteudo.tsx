@@ -21,6 +21,7 @@ import it from './../../assets/imagens/itGif.gif';
 import rick from './../../assets/imagens/rickAndMortyGif.gif';
 import growTweeter from './../../assets/imagens/growTweeter.gif';
 import dra from './../../assets/imagens/dra.gif';
+import pokemon from '../../assets/imagens/pokemon.gif';
 
 function Conteudo() {
   return (
@@ -175,6 +176,12 @@ function Conteudo() {
         <h3>Flesh and Blood MA - Compilador de Streams</h3>
         <a target="_blank" href="https://flesh-and-blood-ma.vercel.app/index.html">
           <Gif src={fab}></Gif>
+        </a>
+      </Projetos>
+      <Projetos>
+        <h3>API Pokemon</h3>
+        <a target="_blank" href="https://trabalho-final-react-iii.vercel.app/">
+          <Gif src={pokemon}></Gif>
         </a>
       </Projetos>
       <Projetos>
